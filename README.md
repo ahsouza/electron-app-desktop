@@ -1,45 +1,165 @@
-# electron-quick-start
+<p align="center">
+ <img width="100px" src="docs/assets/img/electron.png" align="center" alt="GitHub Readme Stats" />
+ <h2 align="center">Electron.js with React, Vue & Angular</h2>
+ <p align="center">
+    Use your Desktop Application with [React.js](https://reactjs.org/), [Vue.js](https://vuejs.org/) & [Angular.js](https://angularjs.org/) frameworks to manage your Interfaces
+</p>
+ </p>
+  <p align="center">
+    <a href="https://github.com/ahsouza/github-readme-stats/actions">
+      <img alt="GitHub issues" src="https://img.shields.io/github/issues/ahsouza/mern">
+    </a>
+    <a href="https://codecov.io/gh/ahsouza/github-readme-stats">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/ahsouza/mern">
+    </a>
+    <a href="https://a.paddle.com/v2/click/16413/119403?link=1227">
+      <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/ahsouza/mern">
+    </a>
+    <a href="https://a.paddle.com/v2/click/16413/119403?link=2345">
+      <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/ahsouza/mern">
+    </a>
+  </p>
+  <p align="center">
+    <a href="/docs/readme_fr.md">Français </a>
+    ·
+    <a href="/docs/readme_cn.md">简体中文</a>
+    ·
+    <a href="/docs/readme_es.md">Español</a>
+    ·
+    <a href="/docs/readme_de.md">Deutsch</a>
+    ·
+    <a href="/docs/readme_ja.md">日本語</a>
+    ·
+    <a href="/docs/readme_pt-BR.md">Português Brasileiro</a>
+    ·
+    <a href="/docs/readme_it.md">Italiano</a>
+    ·
+    <a href="/docs/readme_kr.md">한국어</a>
+  </p>
+  <br>
+  <div style="display: flex" align="center">
+    <img src="docs/assets/img/react.png" width=50 height=50 title='react'/> <img src="docs/assets/img/nodejs.png" width=50 height=50 title='node'/> <img src="docs/assets/img/html.png" width=50 height=50 title='html'/> <img src="docs/assets/img/css.png" width=50 height=50 title='css'/> <img src="docs/assets/img/npm.png" width=50 height=50 title='npm'/> 
+  </div>
+</p>
 
-**Clone and run for a quick way to see Electron in action.**
+<br>
+<br>
+<br>
 
-This is a minimal Electron application based on the [Quick Start Guide](https://electronjs.org/docs/latest/tutorial/quick-start) within the Electron documentation.
+## Estrutura de Arquivos & Pastas
 
-**Use this app along with the [Electron API Demos](https://electronjs.org/#get-started) app for API code examples to help you get started.**
+```
+branch: master
 
-A basic Electron application needs just these files:
+├📂 docs
+├📂 react
+└📂 vue
+├📄 .gitignore.md
+├📄 LICENSE.md
+├📄 README.md
+├📄 index.html
+├📄 package.json
+├📄 preload.js
+├📄 renderer.js
+├📄 style.css
+```
+<br>
+<br>
+<br>
+<br>
 
-- `package.json` - Points to the app's main file and lists its details and dependencies.
-- `main.js` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
-- `index.html` - A web page to render. This is the app's **renderer process**.
+## How To Use?
 
-You can learn more about each of these components within the [Quick Start Guide](https://electronjs.org/docs/latest/tutorial/quick-start).
+We need to configure the main input that contains the path that points to the **main.js** file in **package.json** na raíz do projeto.
 
-## To Use
 
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+In case you want to use with **React**:
 
-```bash
-# Clone this repository
-git clone https://github.com/electron/electron-quick-start
-# Go into the repository
-cd electron-quick-start
-# Install dependencies
-npm install
-# Run the app
-npm start
+```js
+"description": "Electron Desktop",
+"main": "react/public/main.js",
+```
+<br>
+In case you want to use with **Vue**:
+
+```js
+"description": "Electron Desktop",
+"main": "vue/public/main.js",
 ```
 
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+Now install the dependencies electron
 
-## Resources for Learning Electron
+`npm install` or `yarn install`
 
-- [electronjs.org/docs](https://electronjs.org/docs) - all of Electron's documentation
-- [electronjs.org/community#boilerplates](https://electronjs.org/community#boilerplates) - sample starter apps created by the community
-- [electron/electron-quick-start](https://github.com/electron/electron-quick-start) - a very basic starter Electron app
-- [electron/simple-samples](https://github.com/electron/simple-samples) - small applications with ideas for taking them further
-- [electron/electron-api-demos](https://github.com/electron/electron-api-demos) - an Electron app that teaches you how to use Electron
-- [hokein/electron-sample-apps](https://github.com/hokein/electron-sample-apps) - small demo apps for the various Electron APIs
+We're almost there, let's not forget to install your front end dependencies and get the server up
 
-## License
+**To React.js**
 
-[CC0 1.0 (Public Domain)](LICENSE.md)
+```sh
+cd react
+npm i
+npm run start
+```
+
+**To Vue.js**
+
+```sh
+cd vue
+npm i
+npm run dev
+```
+
+<br>
+<br>
+Now that we've indicated our Frontend to the Electron Application, let's run the Desktop
+
+At the root of the project electron, run the following command:
+
+`npm run start`
+
+<br>
+<br>
+<br>
+
+## Package And Distribute Your App
+
+The fastest way to distribute your desktop app is using [Electron Forge](https://www.electronforge.io/)
+
+As we already have these dependencies installed in package.json, we will just build the application with the command below:
+
+```sh
+npm run make
+```
+
+Electron Forge creates the `out` folder where your package will be located
+
+output example:
+
+```sh
+// Example for macOS
+out/
+├── out/make/zip/darwin/x64/my-electron-app-darwin-x64-1.0.0.zip
+├── ...
+└── out/my-electron-app-darwin-x64/my-electron-app.app/Contents/MacOS/my-electron-app
+```
+
+ 
+
+Ramificações (branch) ```git branch -a```
+
+- [main](https://github.com/ahsouza/electron-app-desktop/tree/main)
+- [electron](https://github.com/ahsouza/electron-app-desktop/tree/frontend)
+- [electron-react](https://github.com/ahsouza/electron-app-desktop/tree/electron-react)
+- [electron-vue](https://github.com/ahsouza/electron-app-desktop/tree/electron-vue)
+
+<br>
+<br>
+
+
+
+
+[download](https://github.com/ahsouza/electron-app-desktop/archive/electron.zip) the project on Electron `Electron.js 15.3.0`
+
+[download](https://github.com/ahsouza/electron-app-desktop/archive/electron-react.zip) the project on React `React.js 16.4.1`
+
+[download](https://github.com/ahsouza/electron-app-desktop/archive/electron-vue.zip) the project on Vue `Vue.js 3.1.1`
