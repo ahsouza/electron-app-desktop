@@ -2,7 +2,7 @@
  <img width="100px" src="docs/assets/img/electron.png" align="center" alt="GitHub Readme Stats" />
  <h2 align="center">Electron.js with React, Vue & Angular</h2>
  <p align="center">
-    Use your Desktop Application with [React.js](https://reactjs.org/), [Vue.js](https://vuejs.org/) & [Angular.js](https://angularjs.org/) frameworks to manage your Interfaces
+    Use your Desktop Application with React.js, Vue.js & Angular.js frameworks to manage your Interfaces
 </p>
  </p>
   <p align="center">
