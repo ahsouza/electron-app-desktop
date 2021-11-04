@@ -1,3 +1,0 @@
-* linguist-vendored
-*.vue linguist-vendored=false
-*.ts linguist-vendored=false
