@@ -79,7 +79,7 @@ Caso você for usar com **React**:
 "description": "Electron Desktop",
 "main": "react/public/main.js",
 ```
-<br>
+
 Caso você for usar com **Vue**:
 
 ```js
