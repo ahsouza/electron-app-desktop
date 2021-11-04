@@ -30,7 +30,7 @@
     ·
     <a href="/docs/translate/readme_ja.md">日本語</a>
     ·
-    <a href="/docs/translate/readme_pt-BR.md">Português Brasileiro</a>
+    <a href="/docs/translate/readme_pt-br.md">Português Brasileiro</a>
     ·
     <a href="/docs/translate/readme_it.md">Italiano</a>
     ·
