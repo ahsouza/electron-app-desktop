@@ -1,5 +1,5 @@
 <p align="center">
- <img width="100px" src="docs/assets/img/electron.png" align="center" alt="GitHub Readme Stats" />
+ <img width="100px" src="../assets/img/electron.png" align="center" alt="GitHub Readme Stats" />
  <h2 align="center">Electron.js com React, Vue & Angular</h2>
  <p align="center">
     Utilize seu Aplicativo Desktop em Electron with React.js, Vue.js & Angular.js para gerenciar suas interfaces
@@ -38,7 +38,7 @@
   </p>
   <br>
   <div style="display: flex" align="center">
-    <img src="docs/assets/img/react.png" width=50 height=50 title='react'/> <img src="docs/assets/img/nodejs.png" width=50 height=50 title='node'/> <img src="docs/assets/img/html.png" width=50 height=50 title='html'/> <img src="docs/assets/img/css.png" width=50 height=50 title='css'/> <img src="docs/assets/img/npm.png" width=50 height=50 title='npm'/> 
+    <img src="../assets/img/react.png" width=50 height=50 title='react'/> <img src="../assets/img/nodejs.png" width=50 height=50 title='node'/> <img src="../assets/img/html.png" width=50 height=50 title='html'/> <img src="../assets/img/css.png" width=50 height=50 title='css'/> <img src="../assets/img/npm.png" width=50 height=50 title='npm'/> 
   </div>
 </p>
 
