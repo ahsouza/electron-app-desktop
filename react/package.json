@@ -2,6 +2,7 @@
   "name": "react-interfaces",
   "version": "0.1.0",
   "private": false,
+  "author": "@ahsouza Aníbal Souza <annibalhsouza@gmail.com>",
   "dependencies": {
     "axios": "^0.18.0",
     "react": "^16.4.1",
